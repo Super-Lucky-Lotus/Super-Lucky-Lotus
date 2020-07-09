@@ -1,0 +1,62 @@
+1、版权注释
+版权注释主要用来声明公司的一些基本信息等:
+/** 
+ * projectName: 项目名
+ * fileName: 文件名 
+ * packageName: 包名
+ * date:时间，格式：xxxx年xx月xx日xx:xx:xx
+ * copyright(c) 2017-2020 xxx公司
+ */
+
+
+2、类注释(Class)
+类注释(Class)主要用来声明该类用来做什么，以及创建者、创建日期版本、包名等一些信息:
+/**
+ * @version: 创建版本
+ * @author: 作者名
+ * @className: 类名
+ * @packageName: 包名
+ * @description: 说明
+ * @data: 时间,格式xxxx-xx-xx xx:xx
+ **/
+
+
+3、构造函数注释(Constructor)
+构造函数注释(Constructor)主要用来声明该类的构造函数、入参等信息:
+**
+* @description: 构造函数
+* @param: [sid, pid]
+*/  
+
+
+4、方法注释(Methods)
+方法注释(Methods)主要用来声明该类的作用、入参、返回值、异常等信息:
+/**
+* @author:  作者名
+* @methodsName: 方法名
+* @description: 说明
+* @param:  参数
+* @return: 返回类型
+* @throws: 异常
+*/
+
+
+5、代码块注释(Block)
+/**
+ * 实例化一个用户
+ * xxxxxxx
+ */
+User user=new User();
+
+
+6、单句注释
+User user=new User();  //实例化一个用户
+
+7、字段名注释
+/**
+ * 用户名
+ */
+public String name;
+或者使用如下格式:
+/**用户名**/
+public String name;
